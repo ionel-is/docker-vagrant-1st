@@ -5,14 +5,14 @@ Vagrant.configure("2") do |config|
         :box => "bento/ubuntu-24.04",
         :box_version=> "202502.21.0",
         :ip => "192.168.56.10",
-        :ssh_port => '2202'
+        :ssh_port => '2200'
       },
       {
         :hostname => "node2",
         :box => "bento/ubuntu-24.04",
         :box_version=> "202502.21.0",
         :ip => "192.168.56.11",
-        :ssh_port => '2203'
+        :ssh_port => '2201'
       }
   
     ]
